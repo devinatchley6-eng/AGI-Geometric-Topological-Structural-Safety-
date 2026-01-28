@@ -1,0 +1,12 @@
+# Clone repository
+git clone https://github.com/atchley-research/auf-sandbox
+cd auf-sandbox
+
+# Install with development dependencies
+pip install -e ".[dev]"
+
+# Run demonstration
+python examples/run_demo.py
+
+# Run tests
+pytest tests/ -v
