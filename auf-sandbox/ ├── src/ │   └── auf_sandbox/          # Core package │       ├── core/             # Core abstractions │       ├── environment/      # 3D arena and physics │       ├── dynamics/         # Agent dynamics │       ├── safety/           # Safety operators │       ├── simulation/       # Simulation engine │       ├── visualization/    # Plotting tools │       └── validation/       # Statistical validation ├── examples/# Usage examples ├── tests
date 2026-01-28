@@ -1,0 +1,12 @@
+auf-sandbox/
+├── src/
+│   └── auf_sandbox/          # Core package
+│       ├── core/             # Core abstractions
+│       ├── environment/      # 3D arena and physics
+│       ├── dynamics/         # Agent dynamics
+│       ├── safety/           # Safety operators
+│       ├── simulation/       # Simulation engine
+│       ├── visualization/    # Plotting tools
+│       └── validation/       # Statistical validation
+├── examples/                 # Usage examples
+├── tests
