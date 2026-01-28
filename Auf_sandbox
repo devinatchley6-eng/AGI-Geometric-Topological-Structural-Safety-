@@ -1,0 +1,9 @@
+from auf_sandbox import AUFSimulation, AUFVisualizer
+
+# Run safety validation simulation
+sim = AUFSimulation(num_agents=10, total_time=100.0)
+metrics = sim.run()
+
+# Visualize results
+AUFVisualizer.plot_curvature_timeseries(sim.metrics)
+AUFVisualizer.plot_3d_trajectories(sim.trajectories)
